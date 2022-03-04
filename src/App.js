@@ -8,14 +8,14 @@ import Header from "./components/header";
 import Login from "./components/login";
 
 function App() {
-  const { qrcode, logoVersion } = useFlags();
+  const { qrcode, logoversion } = useFlags();
 
   return (
     <div className="App h-screen bg-ldls bg-cover bg-no-repeat">
       <header className="App-header">
         <Header />
         
-        {logoVersion ? (
+        {logoversion ? (
           <img src={toggle} className="App-pulse max-h-80" alt="logo" />
         ) : (
           <div className="bg-white p-4 px-7 mt-4 lg:px-14 shadow-2xl">
