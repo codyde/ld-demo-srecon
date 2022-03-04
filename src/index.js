@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 
 (async () => {
   const LDProvider = await asyncWithLDProvider({
-    clientSideID: '61e0b1b8db33a21597362608',
+    clientSideID: '6222756f17eece14ae457ff9',
   });
 
 ReactDOM.render(
