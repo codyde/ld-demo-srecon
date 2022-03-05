@@ -19,7 +19,9 @@ function App() {
         {logoversion ? (
           <img src={toggle} className="mx-auto max-h-96" alt="logo" />  
         ) : (  
-            <img src={srecon} className="mx-auto max-h-96" alt="logo" />
+            <div className="bg-white">
+            <img src={srecon} className="mx-auto max-h-72" alt="logo" />
+            </div>
         )}  
         </div>
         <div className="body grid row-start-3 col-span-3 place-items-center">
