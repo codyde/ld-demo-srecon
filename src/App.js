@@ -1,6 +1,5 @@
 import QRCode from "./components/qrCode";
 import ldlogo from "./ld-light.png";
-import srecon from "./srecon.png";
 import toggle from "./toggle_thumbsup.png";
 import "./App.css";
 import { useFlags } from "launchdarkly-react-client-sdk";
@@ -13,7 +12,7 @@ function App() {
   return (
     <div className="App h-screen bg-ldls grid grid-cols-3 grid-rows-3  bg-cover bg-no-repeat">
       {upperimage ? 
-      <div className="body grid col-span-3 row-start-2 xl:row-start-1 place-items-center">
+      <div className="body grid col-span-3 row-start-2 xl:row-start-1  place-items-center">
         {logoversion ? (
           <img src={toggle} className="mx-auto h-56 lg:h-80" alt="logo" />
         ) : (
